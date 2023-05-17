@@ -54,26 +54,26 @@ function generateP() {
 }
 
 function gfg_Run() {
-	console.log('pass');
-	console.log('');
-	console.log(generateP());
-	console.log('');
-	console.log('pass');
+	// console.log('pass');
+	// console.log('');
+	// console.log(generateP());
+	// console.log('');
+	// console.log('pass');
 }
 
-function verCOOKE() {
+// function verCOOKE() {
 
-	// let name = cname + "=";
-	let decodedCookie = decodeURIComponent(document.cookie);
-	let ca = decodedCookie.split(';');
-	for (let i = 0; i < ca.length; i++) {
-		console.log('COOKEE #' + i + ' ===');
-		console.log(ca[i]);
-		console.log('');
-		console.log('');
-	}
+// 	// let name = cname + "=";
+// 	let decodedCookie = decodeURIComponent(document.cookie);
+// 	let ca = decodedCookie.split(';');
+// 	for (let i = 0; i < ca.length; i++) {
+// 		// console.log('COOKEE #' + i + ' ===');
+// 		// console.log(ca[i]);
+// 		// console.log('');
+// 		// console.log('');
+// 	}
 
-}
+// }
 
 // function getCookie(cname) {
 //   let name = cname + "=";

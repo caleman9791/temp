@@ -35,15 +35,16 @@ function fun_Inicio(arguments) {
 			MAIN.benvenida.setAttribute("style", "display: block !important");
 
 			if (getCookie(GALLETA.name)) {
-				console.log("GALLETA EXISTE");
+				// console.log("GALLETA EXISTE");
 			}
 
 		}
 
 	});
-	console.log('ESTAS EN EL INICIO');
+	// console.log('ESTAS EN EL INICIO');
 	if (getCookie(GALLETA.name)) {
-		console.log("GALLETA EXISTE");
+		// console.log("GALLETA EXISTE");
+		setCookie(GALLETA.name, GALLETA.value, GALLETA.days);
 		MAIN.main.setAttribute("style", "display: block !important");
 		MAIN.menu.setAttribute("style", "display: block !important");
 		MAIN.inicio.setAttribute("style", "display: none !important");
@@ -51,7 +52,7 @@ function fun_Inicio(arguments) {
 
 	} else {
 
-		console.log("GALLETA NO EXISTE");
+		// console.log("GALLETA NO EXISTE");
 		MAIN.main.setAttribute("style", "display: block !important");
 		MAIN.menu.setAttribute("style", "display: hidden !important");
 		MAIN.inicio.setAttribute("style", "display: block !important");
@@ -62,11 +63,11 @@ function fun_Inicio(arguments) {
 }
 
 function fun_Otra(arguments) {
-	console.log('NO ESTAS EN EL INICIO');
+	// console.log('NO ESTAS EN EL INICIO');
 	if (getCookie(GALLETA.name)) {
 		MAIN.main.setAttribute("style", "display: block !important");
 	} else {
-		console.log("GALLETA NO EXISTE");
+		// console.log("GALLETA NO EXISTE");
 		let url = "./index.html";
 		window.location.href = url;
 
@@ -74,9 +75,9 @@ function fun_Otra(arguments) {
 }
 
 window.onload = function(arguments) {
-	console.log("PAGINA CARGADA");
+	// console.log("PAGINA CARGADA");
 	gfg_Run();
-	verCOOKE()
+	// verCOOKE()
 	// openDB()
 	// MAIN.cuerpo == document.querySelector(".main");
 	MAIN.main = document.getElementById("main");
@@ -89,7 +90,7 @@ window.onload = function(arguments) {
 	// MAIN.xxxxxxx == document.querySelector(".xxxxx");
 
 	let atributos = MAIN.main.getAttribute("class");
-	// console.log(atributos);
+	// // console.log(atributos);
 	const valor = atributos.split(" ");
 
 	if (valor.length == 2) {
@@ -102,5 +103,5 @@ window.onload = function(arguments) {
 }
 
 // for (var i = 0; i < valor.length; i++) {
-// 	console.log(valor[i]);
+// 	// console.log(valor[i]);
 // }
