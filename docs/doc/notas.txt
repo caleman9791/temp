@@ -1,0 +1,12 @@
+Implementación de enlaces internos y externos (Tarea de assessment)
+(Sin El Estudio Riguroso del Material No Podrás lograr la comprensión y realizar la tarea correctamente)
+Instrucciones
+
+Crea un sitio web que contenga los siguientes enlaces y clasifícalos, utilizando comentarios en tu código como enlaces internos o externos:
+
+    Crea un sitio web que contenga los siguientes enlaces y clasifícalos, utilizando comentarios en tu código como enlaces internos o externos:
+        Un enlace para enviar un correo electrónico a tu profesor.  (malfau@nuc.edu)
+        Un enlace a la página de Internet de National University College.  (https://www.nuc.edu/)
+            El enlace debe abrir en una ventana nueva del navegador.
+        Un enlace a una división llamada “NUC Programas División Tecnología”.
+            Debe crear la división y el enlace a la misma.  (https://www.nuc.edu/programas/school-of-technology/ )
