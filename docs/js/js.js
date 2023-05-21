@@ -25,7 +25,7 @@ PASS.pass = "LEG0IsF7WHPMkaBwOyXWUX8Ea7FZq";
 
 function fun_Inicio(arguments) {
 
-	MAIN.btn_pass.addEventListener("click", function() {
+	MAIN.btn_pass.addEventListener("click", function () {
 
 		if (MAIN.txt_pass.value == PASS.pass) {
 			setCookie(GALLETA.name, GALLETA.value, GALLETA.days);
@@ -66,6 +66,7 @@ function fun_Otra(arguments) {
 	// console.log('NO ESTAS EN EL INICIO');
 	if (getCookie(GALLETA.name)) {
 		MAIN.main.setAttribute("style", "display: block !important");
+		MAIN.menu.setAttribute("style", "display: block !important");
 	} else {
 		// console.log("GALLETA NO EXISTE");
 		let url = "./index.html";
@@ -74,7 +75,7 @@ function fun_Otra(arguments) {
 	}
 }
 
-window.onload = function(arguments) {
+window.onload = function (arguments) {
 	// console.log("PAGINA CARGADA");
 	gfg_Run();
 	// verCOOKE()
